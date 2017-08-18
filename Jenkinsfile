@@ -4,5 +4,11 @@ pipeline {
         // Run every minute
         cron('* * * * *')
   }  
-  echo 'Hello Cron World'
+ stages {
+        stage('Example') {
+            steps {
+                echo 'Hello Cron World'
+            }
+        }
+    }  
 }
