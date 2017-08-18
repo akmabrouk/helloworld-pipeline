@@ -1,4 +1,4 @@
-node {
+pipeline {
   triggers {
         // Run every minute
         cron('* * * * *')
