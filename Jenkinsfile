@@ -1,4 +1,5 @@
 pipeline {
+  agent any
   triggers {
         // Run every minute
         cron('* * * * *')
